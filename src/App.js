@@ -15,18 +15,11 @@ function App() {
     <div className="header">
       <img src={require('./assests/background.jpg')} className="background" alt="mountain" />
       <img src={require('./assests/Trees.png')} className="foreground" alt="trees"/>
-      <h1 className="title display-1 fw-bold">Welcome!</h1>
+      <h2 className="title display-1 fw-bold">Hello, I'm Kevin!</h2>
+      <div class="scroll-down"></div>
     </div>
     <div className="section">
       <Container>
-        <Row className="d-flex flex-row justify-content-between align-items-center">
-          <Col>
-          <img src={require('./assests/me.jpg')} className="profile" alt="me" />
-          </Col>
-          <Col>
-          <div>I’m a full‑stack developer </div>
-        </Col>
-        </Row>
         <Row className="d-flex flex-column p-5">
           <Col><About /></Col>
           <Col><Skills /></Col>
