@@ -1,7 +1,6 @@
-import About from "./components/About"
-import Contact from "./components/Contact"
-import Skills from "./components/Skills"
-import Projects from "./components/Projects"
+import About from "./Pages/About"
+import Contact from "./Pages/Contact"
+import Projects from "./Pages/Projects"
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -16,13 +15,12 @@ function App() {
       <img src={require('./assests/background.jpg')} className="background" alt="mountain" />
       <img src={require('./assests/Trees.png')} className="foreground" alt="trees"/>
       <h2 className="title display-1 fw-bold">Hello, I'm Kevin!</h2>
-      <div class="scroll-down"></div>
+      <div className="scroll-down"></div>
     </div>
     <div className="section">
       <Container>
         <Row className="d-flex flex-column p-5">
           <Col><About /></Col>
-          <Col><Skills /></Col>
           <Col><Projects /></Col>
           <Col><Contact /></Col>
         </Row>
