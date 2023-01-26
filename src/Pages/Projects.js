@@ -50,7 +50,7 @@ export default function Projects() {
           {/* <div className="embed-responsive embed-responsive-16by9">
             <iframe className="embed-responsive-item" src="https://brilliant-creponne-076f96.netlify.app/" allowFullScreen></iframe>
           </div> */}
-        <Carousel interval={1700} className='mb-5'>
+        <Carousel interval={1700} className='mb-2'>
           <Carousel.Item>
             <img
               className="d-block w-100"
