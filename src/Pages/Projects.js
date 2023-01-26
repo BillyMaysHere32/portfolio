@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function Projects() {
   return (
-    <div className="mb-5">
+    <div className="component mb-5">
       <h2 className="component-title fw-bold">Projects</h2>
       <hr></hr>
 

@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function Contact() {
   return (
-    <div className="mt-5">
+    <div className="component mt-2">
         <h2 className="text-center component-title fw-bold">Contact</h2>
         <hr></hr>
         <div className="mt-5 d-flex flex-column justify-content-center align-items-center ">

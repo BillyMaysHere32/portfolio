@@ -52,10 +52,17 @@ body {
   font-family: 'Black-Ops-One';
 }
 
+.component {
+  background-color: rgb(68, 66, 66);
+  padding: 25px;
+  border-radius: 2%;
+}
+
 .section {
   font-size: 2rem;
   padding: 2rem;
   background-color: rgb(56, 55, 55);
+  /* background-image: url("../src/assests/night.jpg"); */
   color: white;
 }
 
@@ -80,7 +87,7 @@ body {
   border-bottom: 5px solid #fff;
   border-right: 5px solid #fff;
   z-index: 9;
-  left: 50%;
+  left: 47%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
   -moz-transform: translate(-50%, 0%) rotate(45deg);
   transform: translate(-50%, 0%) rotate(45deg);
@@ -123,4 +130,5 @@ body {
 .icon-text {
   font-size: small;
 }
+
 
