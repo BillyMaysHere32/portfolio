@@ -48,7 +48,8 @@ body {
 
 .component-title {
   color: white;
-  text-shadow: 0 0 5px black;;
+  text-shadow: 0 0 5px rgb(37, 35, 35);
+  font-family: 'Black-Ops-One';
 }
 
 .section {
@@ -122,3 +123,4 @@ body {
 .icon-text {
   font-size: small;
 }
+

@@ -19,8 +19,9 @@ function App() {
     </div>
     <div className="section">
       <Container>
-        <Row className="d-flex flex-column p-5">
+        <Row className="d-flex flex-column mt-5">
           <Col><About /></Col>
+          <br></br>
           <Col><Projects /></Col>
           <Col><Contact /></Col>
         </Row>

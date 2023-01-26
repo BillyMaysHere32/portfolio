@@ -20,7 +20,7 @@ import { Row } from 'react-bootstrap'
 
 export default function Skills() {
   return (
-    <Row xs={3}  className="d-flex flex-row justify-content-center g-5">
+    <Row xs={3}  className="border border-light pb-5 border-3 rounded d-flex flex-row justify-content-center g-5">
         <div className="icon"><FaHtml5 /><div className="icon-text">HTML</div></div>
         <div className="icon"><DiCss3 /><div className="icon-text">CSS</div></div>
         <div className="icon"><FaJsSquare /><div className="icon-text">JS</div></div>

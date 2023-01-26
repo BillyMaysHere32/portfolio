@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 export default function Contact() {
   return (
