@@ -75,18 +75,18 @@ body {
   z-index: 100;
   text-decoration: none;
   text-shadow: 0;
-  width: 35px;
-  height: 35px;
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
+  width: 45px;
+  height: 45px;
+  border-bottom: 5px solid #fff;
+  border-right: 5px solid #fff;
   z-index: 9;
   left: 50%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
   -moz-transform: translate(-50%, 0%) rotate(45deg);
   transform: translate(-50%, 0%) rotate(45deg);
-  -webkit-animation: fade_move_down 4s ease-in-out infinite;
-  -moz-animation:    fade_move_down 4s ease-in-out infinite;
-  animation:         fade_move_down 4s ease-in-out infinite;
+  -webkit-animation: fade_move_down 2s ease-in-out infinite;
+  -moz-animation:    fade_move_down 2s ease-in-out infinite;
+  animation:         fade_move_down 2s ease-in-out infinite;
 }
 
 
