@@ -10,7 +10,7 @@ export default function Projects() {
       <hr></hr>
 
       <Row md={1} lg={2} className="d-flex flex-row justify-content-between align-items-center mb-5">
-        <Carousel interval={1700} className='mb-5'>
+        <Carousel interval={1700} className='mb-2'>
           <Carousel.Item>
             <img
               className="d-block w-100"

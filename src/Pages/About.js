@@ -12,7 +12,7 @@ export default function About() {
     <div>
       <h2 className="component-title fw-bold">About Me</h2>
       <hr></hr>
-      <Container className="mb-5 mt-5 ">
+      <Container className="mb-5 mt-5">
       <Row className="d-flex flex-row justify-content-between align-items-center g-5">
           <Col md={12} lg={6} className="d-flex flex-column justify-content-center align-items-center">
             <img src={require('../assests/me.jpg')} className="profile mb-5" alt="me" />
