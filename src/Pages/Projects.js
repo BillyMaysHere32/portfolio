@@ -39,7 +39,7 @@ export default function Projects() {
         </Carousel>
         <div>
           <h3 className="project-title fw-bold">Safety Arms Systems</h3>
-          <p className="lead">Designed and developed website for this startup.</p>
+          <p className="lead">Designed and developed website for this startup. Management wanted a clone of the Tesla CyberTruck interface. Time management and team collaboration were crucial in executing multiple projects simultaneously to meet critical deadlines.</p>
           <div>
           <Button href="https://safetyarmsusa.com/" variant="outline-light">Website</Button>
           </div>

@@ -16,7 +16,7 @@ export default function About() {
       <Row className="d-flex flex-row justify-content-between align-items-center g-5">
           <Col md={12} lg={6} className="d-flex flex-column justify-content-center align-items-center">
             <img src={require('../assests/me.jpg')} className="profile mb-5" alt="me" />
-            <p className="lead">I am a MERN full stack developer that enjoys approaching my projects with a user first perspective. My passion is creating responsive applications using modern tools such as React and NodeJs, with focus on user experience. I love the outdoors and my other hobbies include golf, video games, garage gyms and anything that is Star Wars.</p>
+            <p className="lead">I am a MERN full stack developer that enjoys creating responsive applications using modern tools such as React and NodeJs, with focus on user experience. My passions are problem solving, puzzles, creating and ultimately to develop things that propel businesses forward. I love the outdoors and my other hobbies include golf, video games, garage gyms and anything that is Star Wars.</p>
           </Col>
 
           <Col className="pt-5">
