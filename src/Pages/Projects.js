@@ -84,6 +84,44 @@ export default function Projects() {
         </div>
       </Row>
 
+      <Row md={1} lg={2} className="d-flex flex-row justify-content-between align-items-center mb-5">
+          {/* <div className="embed-responsive embed-responsive-16by9">
+            <iframe className="embed-responsive-item" src="https://brilliant-creponne-076f96.netlify.app/" allowFullScreen></iframe>
+          </div> */}
+        <Carousel interval={1700} className='mb-2'>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={require('../assests/shop1.jpg')}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={require('../assests/shop2.jpg')}
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={require('../assests/shop3.jpg')}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+        
+        <div>
+          <h3 className="project-title fw-bold">Ecommerce App</h3>
+          <p className="lead">Website designed and developed with React and typescript. Store app allows user to select as many items as they want, it then adds their order to the cart where it can be further manipulated, and the total cost will be automatically calculated.</p>
+          <div>
+            <Button variant="outline-light " href="https://billymayshere32.github.io/ecommerce-app/">Live Demo</Button>
+            <Button variant="outline-light" href="https://github.com/BillyMaysHere32/ecommerce-app">View Code</Button>
+          </div>
+        </div>
+      </Row>
+
     </div>
   )
 }
