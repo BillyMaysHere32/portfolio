@@ -1,17 +1,16 @@
-.App {
-  text-align: center;
-}
-
-body {
-  margin: 0;
-}
-
 .wrapper {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
-  background-color: rgb(48, 73, 55);
+  background-color: rgb(68, 66, 66);
+
+  scroll-behavior: smooth;
+  font-size: 2rem;
+  color: white;
+}
+.nav{
+  font-size: large;
 }
 
 .header {
@@ -25,12 +24,12 @@ body {
 }
 
 .background {
-  transform: translateZ(-10px) scale(2.5);
+  transform: translateZ(-15px) scale(2.5);
 }
 
-.foreground {
-  transform: translateZ(-5px) scale(1.5);
-}
+/* .foreground {
+  transform: translateZ(0px) scale(1.5);
+} */
 
 .background,
 .foreground {
@@ -42,34 +41,32 @@ body {
 }
 
 .title {
-  color: white;
-  text-shadow: 0 0 5px black;;
+  text-shadow: 0 0 5px black;
+  text-align: center;
 }
 
 .component-title {
-  color: white;
   text-shadow: 0 0 5px rgb(37, 35, 35);
   font-family: 'Black-Ops-One';
 }
 
 .component {
   background-color: rgb(68, 66, 66);
-  padding: 25px;
-  border-radius: 2%;
+  padding-top: 25px;
 }
-
-.section {
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: rgb(56, 55, 55);
-  /* background-image: url("../src/assests/night.jpg"); */
-  color: white;
+.contact {
+  background-color: rgb(40, 39, 39);
+  padding-top: 25px;
 }
-
-.profile {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+.copyright {
+  text-align: center;
+  font-size: small;
+}
+#aboutComponent,
+#home,
+#projectComponent,
+#contactComponent{
+  scroll-margin-top: 40px;
 }
 
 .scroll-down {
@@ -81,11 +78,11 @@ body {
   font-size: 20px;
   z-index: 100;
   text-decoration: none;
-  text-shadow: 0;
+  text-shadow: 50px black;
   width: 45px;
   height: 45px;
-  border-bottom: 5px solid #fff;
-  border-right: 5px solid #fff;
+  border-bottom: 5px solid rgb(185, 182, 182);
+  border-right: 5px solid rgb(185, 182, 182);
   z-index: 9;
   left: 47%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
@@ -120,15 +117,93 @@ body {
     width: 1000px;
 }
 
-.icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.btn {
+  transition: 250ms ease-in-out;
 }
 
-.icon-text {
-  font-size: small;
+.btn:hover {
+  transform: translateY(-5px);
 }
 
+/* Small Screens max width 640px */
+@media screen and (max-width: 991px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+  .skillsGrid img {
+    height: 50px;
+    width: 50px;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutText{
+    font-size: small;
+  }
+  .profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
 
+@media screen and (min-width: 992px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 30px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+  .skillsGrid img {
+    height: 100px;
+    width: 100px;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutText{
+    font-size: large;
+  }
+  .title {
+    max-width: 40vw;
+  }
+  .profile {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+  }
+  .about{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .aboutTextBlock{
+    max-width: 40vw;
+  }
+  .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

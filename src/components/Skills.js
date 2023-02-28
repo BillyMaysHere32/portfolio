@@ -12,9 +12,6 @@ import { SiTypescript } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-// import { SiPug } from "react-icons/si";
-// import { DiGit } from "react-icons/di";
-// import { FaJava } from "react-icons/fa";
 
 import { Row } from 'react-bootstrap'
 
@@ -37,9 +34,6 @@ export default function Skills() {
         <div className="icon"><FaBootstrap /><div className="icon-text">BOOTSTRAP</div></div>
         <div className="icon"><FaGithub /><div className="icon-text">GITHUB</div></div>
         
-        {/* <div className="icon"><FaJava /></div>
-        <div className="icon"><SiPug /></div>
-        <div className="icon"><DiGit /></div> */}
     </Row>
   )
 }
