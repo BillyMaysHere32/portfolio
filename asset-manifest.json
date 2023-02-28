@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9ce34efe.css",
-    "main.js": "/portfolio/static/js/main.d6f90c29.js",
-    "static/media/background.jpg": "/portfolio/static/media/background.c96b2e22e42d5560836c.jpg",
+    "main.css": "/portfolio/static/css/main.43457ebd.css",
+    "main.js": "/portfolio/static/js/main.fbc4acf7.js",
+    "static/media/m8.jpg": "/portfolio/static/media/m8.cf0f435901c210c58b6c.jpg",
     "static/media/shop1.jpg": "/portfolio/static/media/shop1.4e7ceb457bb317438778.jpg",
     "static/media/app1.jpg": "/portfolio/static/media/app1.202d4219d0992249f44b.jpg",
     "static/media/gun1.jpg": "/portfolio/static/media/gun1.8eca849487d971bc9c72.jpg",
@@ -10,16 +10,15 @@
     "static/media/gun2.jpg": "/portfolio/static/media/gun2.8cc3048219e4ea9a5065.jpg",
     "static/media/gun3.jpg": "/portfolio/static/media/gun3.903638752410520f4e98.jpg",
     "static/media/app2.jpg": "/portfolio/static/media/app2.0ca27e4b1e04e3a736aa.jpg",
-    "static/media/Trees.png": "/portfolio/static/media/Trees.1db78bd6b55975e506e5.png",
     "static/media/app3.jpg": "/portfolio/static/media/app3.c5738e22efb3772e78a3.jpg",
     "static/media/shop3.jpg": "/portfolio/static/media/shop3.ec26392f0518eb286636.jpg",
     "static/media/me.jpg": "/portfolio/static/media/me.f15171021e22a039a5b6.jpg",
     "index.html": "/portfolio/index.html",
-    "main.9ce34efe.css.map": "/portfolio/static/css/main.9ce34efe.css.map",
-    "main.d6f90c29.js.map": "/portfolio/static/js/main.d6f90c29.js.map"
+    "main.43457ebd.css.map": "/portfolio/static/css/main.43457ebd.css.map",
+    "main.fbc4acf7.js.map": "/portfolio/static/js/main.fbc4acf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ce34efe.css",
-    "static/js/main.d6f90c29.js"
+    "static/css/main.43457ebd.css",
+    "static/js/main.fbc4acf7.js"
   ]
 }
