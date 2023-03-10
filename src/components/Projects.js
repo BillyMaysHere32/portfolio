@@ -8,11 +8,45 @@ export default function Projects() {
     <div className="component p-5">
       <h2 className="component-title fw-bold">Projects</h2>
       <hr></hr>
-      <Row xl={3} className="d-flex justify-content-between align-items-top">
+      <Row xl={4} className="d-flex justify-content-between align-items-top">
+      <Row  className="mb-5">
+          <Carousel interval={1700} className='mb-3'>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/ai1.jpeg')}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/ai2.jpeg')}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/ai3.jpeg')}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div>
+            <h3 className="project-title fw-bold">AI Imgage Generator/Social Media App</h3>
+            <p className="lead">
+              Create original, realistic images and art from a text description using the powerful DALL·E AI system. 
+              This full-stack app was created using React, NodeJs, Express and MongoDB along with Redux Toolkit for state management.
+            </p>
+            <div>
+              <Button variant="outline-light " href="https://bit-pic.netlify.app/">Live Demo</Button>
+              <Button variant="outline-light" href="https://github.com/BillyMaysHere32/fullstack-ai-image-generation-app">View Code</Button>
+            </div>
+          </div>
+        </Row>
+
         <Row  className="mb-5">
-            {/* <div className="embed-responsive embed-responsive-16by9">
-              <iframe className="embed-responsive-item" src="https://brilliant-creponne-076f96.netlify.app/" allowFullScreen></iframe>
-            </div> */}
           <Carousel interval={1700} className='mb-3'>
             <Carousel.Item>
               <img
