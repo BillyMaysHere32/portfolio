@@ -223,3 +223,8 @@ form{
   }
 }
 
+.skillsGrid {
+  background-color: rgb(153, 154, 155);
+  border-radius: 5px;
+  box-shadow: 40px -20px 15px rgba(133, 133, 133, 0.423);
+}

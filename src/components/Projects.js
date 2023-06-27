@@ -34,7 +34,7 @@ export default function Projects() {
             </Carousel.Item>
           </Carousel>
           <div>
-            <h3 className="project-title fw-bold">AI Imgage Generator/Social Media App</h3>
+            <h3 className="project-title fw-bold">AI Image Generator/Social Media App</h3>
             <p className="lead">
               Create original, realistic images and art from a text description using the powerful DALL·E AI system. 
               This full-stack app was created using React, NodeJs, Express and MongoDB along with Redux Toolkit for state management.

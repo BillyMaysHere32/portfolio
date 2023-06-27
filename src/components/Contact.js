@@ -23,8 +23,10 @@ export default function Contact() {
   return (
     <>
       <div className="contact p-5">
+      <br></br>
         <h2 className="component-title fw-bold">Contact</h2>
         <hr></hr>
+        <br></br>
         <div className="contactContainer">
           <form ref={form} onSubmit={sendEmail}>
             {/* <h3 className='text-white mb-3'>Write me an email</h3> */}
@@ -56,6 +58,12 @@ export default function Contact() {
             </div>
           </div>
         </div>
+        <br></br>
+        <br></br>
+        <hr></hr>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
       <div>
         <p className='copyright m-4'>Copyright © 2022 | Kevin Getz</p>
