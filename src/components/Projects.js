@@ -8,7 +8,44 @@ export default function Projects() {
     <div className="component p-5">
       <h2 className="component-title fw-bold">Projects</h2>
       <hr></hr>
-      <Row xl={4} className="d-flex justify-content-between align-items-top">
+      <Row xl={3} className="d-flex justify-content-between align-items-top">
+      <Row  className="mb-5">
+          <Carousel interval={1700} className='mb-3'>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/layout.png')}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/layout2.png')}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/layout3.png')}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div>
+            <h3 className="project-title fw-bold">Landing Page</h3>
+            <p className="lead">
+            ▪ Landing page I developed as part of a user-friendly dynamic/responsive website for a client.
+            <br></br>▪ Developed from design concepts and wireframes with a mobile first approach and emphasis on user experience. 
+            <br></br>▪ This example was developed only using HTML, CSS, JavaScript and SASS.
+            </p>
+          <div>
+              <Button variant="outline-light " href="https://tri-county-landing-page.netlify.app/">Live Demo</Button>
+              <Button variant="outline-light" href="https://github.com/BillyMaysHere32/landing-page-tri-county">View Code</Button>
+            </div>
+          </div>
+        </Row>
       <Row  className="mb-5">
           <Carousel interval={1700} className='mb-3'>
             <Carousel.Item>

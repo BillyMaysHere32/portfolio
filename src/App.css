@@ -1,10 +1,12 @@
+body {
+  overflow: hidden; 
+}
 .wrapper {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
   background-color: rgb(68, 66, 66);
-
   scroll-behavior: smooth;
   font-size: 2rem;
   color: white;
@@ -21,6 +23,7 @@
   height: 100%;
   transform-style: preserve-3d;
   z-index: -1;
+  margin-left: -10px;
 }
 
 .background {
