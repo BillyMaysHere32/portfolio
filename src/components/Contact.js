@@ -62,12 +62,12 @@ export default function Contact() {
         <br></br>
         <hr></hr>
         <br></br>
-        <br></br>
-        <br></br>
+
       </div>
       <div>
         <p className='copyright m-4'>Copyright © 2022 | Kevin Getz</p>
       </div>
+     
     </>
   )
 }

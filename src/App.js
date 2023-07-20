@@ -18,15 +18,16 @@ function App() {
           {/* <img src={require('./assests/Tree1.png')} className="foreground" alt="trees"/> */}
           <div className="d-flex flex-column align-items-center">
             <h2 className="title display-1 fw-bold mb-5">Hello, I'm Kevin.</h2>
-            <h3 className="title fw-bold">Full Stack Web Developer. I create websites, 
-            software, and solutions that make your business thrive!</h3>
+            <h3 className="title fw-bold">I'm a Full-Stack Web Developer, JavaScript Developer, Software Engineer, Frontend Developer, React Developer...</h3>
         </div> 
         <a class="scroll-down" href="#aboutComponent"></a>
         </div>
             <Row className="d-flex flex-column mt-5">
-              <Col id="aboutComponent"><About /></Col>
-              <Col><SkillsIcons /></Col>
+              
+              
               <Col id="projectComponent"><Projects /></Col>
+              <Col><SkillsIcons /></Col>
+              <Col id="aboutComponent"><About /></Col>
               <Col id="contactComponent"><Contact /></Col>
             </Row>
       </div>
