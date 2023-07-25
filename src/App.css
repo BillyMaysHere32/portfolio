@@ -157,11 +157,11 @@ form{
   .aboutText{
     font-size: small;
   }
-  .profile {
+  /* .profile {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-  }
+  } */
   .nav{
     display: flex;
     flex-direction: row-reverse;
@@ -198,11 +198,11 @@ form{
   .title {
     max-width: 40vw;
   }
-  .profile {
+  /* .profile {
     height: 125px;
     width: 125px;
     border-radius: 50%;
-  }
+  } */
   .about{
     display: flex;
     justify-content: center;

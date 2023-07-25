@@ -9,6 +9,38 @@ export default function Projects() {
       <h2 className="component-title fw-bold">Projects</h2>
       <hr></hr>
       <Row xl={3} className="d-flex justify-content-between align-items-top">
+      <Row   className="d-flex flex-row justify-content-between align-items-center mb-5">
+          <Carousel interval={1700} className='mb-3'>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/gun1.jpg')}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/gun3.jpg')}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/gun2.jpg')}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div>
+            <h3 className="project-title fw-bold">Safety Arms Systems</h3>
+            <p className="lead">Designed and developed website for this startup. Management wanted a clone of the Tesla CyberTruck interface. Time management and team collaboration were crucial in executing multiple projects simultaneously to meet critical deadlines.</p>
+            <div>
+            <Button href="https://safetyarmsusa.com/" variant="outline-light">Website</Button>
+            </div>
+          </div>
+        </Row>
       <Row  className="mb-5">
           <Carousel interval={1700} className='mb-3'>
             <Carousel.Item>
@@ -83,6 +115,42 @@ export default function Projects() {
           </div>
         </Row>
 
+
+        <Row   className="d-flex flex-row justify-content-center align-items-center mb-5">
+          <div  className='mb-3 justify-content-center'>
+            <div className='justify-content-center'>
+              <img
+              style={{height: '300px'}}
+                className=""
+                src={require('../assests/gunMobile.jpg')}
+                alt="First slide"
+              />
+            </div>
+            {/* <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/gun3.jpg')}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../assests/gun2.jpg')}
+                alt="Third slide"
+              />
+            </Carousel.Item> */}
+          </div>
+          <div>
+            <h3 className="project-title fw-bold">Safety Arms Systems</h3>
+            <p className="lead">Designed and developed mobile app using React Native that connects to the firearm to track and lock/unlock the weapon. </p>
+            <div>
+            <Button href="https://safetyarmsusa.com/" variant="outline-light">Website</Button>
+            </div>
+          </div>
+        </Row>
+
+
         <Row  className="mb-5">
           <Carousel interval={1700} className='mb-3'>
             <Carousel.Item>
@@ -152,38 +220,7 @@ export default function Projects() {
           </div>
         </Row>
 
-        <Row   className="d-flex flex-row justify-content-between align-items-center mb-5">
-          <Carousel interval={1700} className='mb-3'>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require('../assests/gun1.jpg')}
-                alt="First slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require('../assests/gun3.jpg')}
-                alt="Second slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require('../assests/gun2.jpg')}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-          </Carousel>
-          <div>
-            <h3 className="project-title fw-bold">Safety Arms Systems</h3>
-            <p className="lead">Designed and developed website for this startup. Management wanted a clone of the Tesla CyberTruck interface. Time management and team collaboration were crucial in executing multiple projects simultaneously to meet critical deadlines.</p>
-            <div>
-            <Button href="https://safetyarmsusa.com/" variant="outline-light">Website</Button>
-            </div>
-          </div>
-        </Row>
+
       </Row>
     </div>
   )

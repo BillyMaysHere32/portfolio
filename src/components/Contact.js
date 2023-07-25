@@ -24,7 +24,7 @@ export default function Contact() {
     <>
       <div className="contact p-5">
       <br></br>
-        <h2 className="component-title fw-bold">Contact</h2>
+        <h2 className="component-title fw-bold" style={{ textAlign: 'center'}}>Contact</h2>
         <hr></hr>
         <br></br>
         <div className="contactContainer">
